@@ -13,12 +13,12 @@ li {
 
 .jumbotron{
   text-align: center;
-  font-size: 4em;
+  font-size: 7em;
   background-color: #1607e0;
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'cursive';
 }
 .col-md-5 {
-  border: 2px solid black;
+  border: 10px solid black;
 }
 
 .showTurnTotal {
