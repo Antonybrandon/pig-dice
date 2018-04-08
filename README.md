@@ -17,7 +17,7 @@ There are no known bugs by the developer
 ## Technology used ##
 
 * Jquery Library
-* Hyper Text Markup
+* Hyper Text Markup Language
 * Bootstrap from twitter
 * Javascript
 * Cascading Style Sheets

@@ -86,7 +86,7 @@ $(document).ready(function() {
   function changePlayers() {
     if ($("#player1Display").is(":visible")) {
       playersArray[0].score = (playersArray[0].score += turnRollArray.sum());
-      alert("Congrats, " + playersArray[0].playerName + ", you got " + turnRollArray.sum() +  " points!");
+      alert("Congratulations, " + playersArray[0].playerName + ", you got " + turnRollArray.sum() +  " Points");
       turnRollArray = [0];
       $("#turnTotal").text(turnRollArray)
       $("#player1Display").hide();
@@ -94,7 +94,7 @@ $(document).ready(function() {
       console.log(playersArray[0].score);
       showNamesAndScores();
     } else {
-      alert("Congrats, " + playersArray[1].playerName + ", you got " + turnRollArray.sum() +  " points!");
+      alert("Congratulations, " + playersArray[1].playerName + ", you got " + turnRollArray.sum() +  " Points");
       playersArray[1].score = (playersArray[1].score += turnRollArray.sum());
       turnRollArray = [0];
       $("#turnTotal").text(turnRollArray)
