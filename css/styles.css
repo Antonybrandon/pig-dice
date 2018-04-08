@@ -43,9 +43,9 @@ li {
 #rollResult {
   border: 2px solid black;
   display: none;
-  background:#ff6699;
+  background:#fafafa;
   text-align: center;
-  font-size: 3em;
+  font-size: 2.0em;
 }
 
 #turnTotalStuff {
@@ -56,14 +56,14 @@ li {
 #turnTotal {
     text-align: center;
     border: 2px solid black;
-    font-size: 3em;
+    font-size: 2.0em;
 }
 
 #player1Display {
   display: none;
   text-align: center;
   border: 2px solid black;
-  color: #ff6699;
+  color: #ffffff;
   background-color: black;
 }
 
@@ -87,3 +87,4 @@ li {
 .row {
   text-align: center;
 }
+ 

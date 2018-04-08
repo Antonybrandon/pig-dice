@@ -17,10 +17,10 @@ Array.prototype.sum = function() {
 
 // UI logic
 $(document).ready(function() {
-  // Player name submit button
+  // Player name and submit button
   $("form#playerNameForm").submit(function(event) {
     event.preventDefault();
-    // debugger;
+    // player
     var player1Name = $("#player1Name").val();
     var player2Name = $("#player2Name").val();
     var player1 = new Player(player1Name, 0);
@@ -104,7 +104,7 @@ $(document).ready(function() {
       console.log(playersArray[1].score);
       }
     }
-
+ // By Antony brandon!
 
 
 
