@@ -18,7 +18,7 @@ li {
   font-family: 'cursive';
 }
 .col-md-5 {
-  border: 10px solid black;
+  border: 10px solid rgb(255, 0, 0);
 }
 
 .showTurnTotal {
